@@ -1,0 +1,10 @@
+<!--pages/order/order.wxml-->
+<view class="wrap">
+	<image src="{{src}}" mode="aspectFill" class="back"></image>
+</view>
+<view class="fixed">
+  <view class="item">
+  <image src="{{member.face}}" mode="aspectFill"></image>
+  <view class="itemText">{{member.nickName}}</view>
+  </view>
+</view>

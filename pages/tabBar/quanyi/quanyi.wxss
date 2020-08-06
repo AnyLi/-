@@ -1,0 +1,4 @@
+/* pages/quanyi/quanyi.wxss */
+.van-tree-select{
+  height: 100vh!important;
+}

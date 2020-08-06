@@ -1,0 +1,18 @@
+<!--pages/zhuanfen/zhuanfen.wxml-->
+
+<view class="flexCenter page" style="background:url('https://hbimg.huabanimg.com/65b6235ceb2fec40f21e9696b903b08272fff768d241e-9Uh1ye_fw658/format/webp');background-size:100%">
+<van-grid clickable column-num="2" style="width:80%">
+  <van-grid-item
+    icon="search"
+    link-type="navigateTo"
+    url="/pages/zhuanfen/pages/zhuanfenDetail/zhuanfenDetail"
+    text="查看详情"
+  />
+  <van-grid-item
+    icon="home-o"
+    link-type="reLaunch"
+    url="/pages/tabBar/index/index"
+    text="首页"
+  />
+</van-grid>
+</view>

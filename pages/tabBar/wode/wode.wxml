@@ -1,0 +1,28 @@
+<!--pages/wode/wode.wxml-->
+<view class="wrap">
+	<image src="{{src}}" mode="aspectFill" class="back"></image>
+  <van-cell
+  is-link
+  title="我的信息"
+  link-type="navigateTo"
+  url="/pages/wode/pages/wodeDetail/wodeDetail"
+/>
+  <van-cell
+  is-link
+  title="我的关注"
+  link-type="navigateTo"
+  url="/pages/wode/pages/mine/mine"
+/>
+  <van-cell
+  is-link
+  title="我的会员卡"
+  link-type="navigateTo"
+  url="/pages/wode/pages/wodeDetail/wodeDetail"
+/>
+</view>
+<view class="fixed">
+	<view class="item">
+		<image src="{{member.face}}" mode="aspectFill"></image>
+		<view class="itemText">{{member.nickName}}</view>
+	</view>
+</view>

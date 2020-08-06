@@ -1,0 +1,10 @@
+<!--pages/quanyi/quanyi.wxml-->
+<van-tree-select 
+  items="{{ items }}"
+  main-active-index="{{ mainActiveIndex }}"
+  active-id="{{ activeId }}"
+  bind:click-nav="onClickNav"
+  bind:click-item="onClickItem"
+>
+ <image style="width:100%" src="https://hbimg.huabanimg.com/225238e257f5ab44bc5fd4df23670300e8b9aba212a4dd-pnWZ4X_fw658/format/webp" slot="content" mode="aspectFill" />
+</van-tree-select>

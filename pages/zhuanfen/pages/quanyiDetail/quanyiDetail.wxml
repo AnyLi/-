@@ -1,0 +1,7 @@
+<!--pages/quanyi/quanyiDetail/quanyiDetail.wxml-->
+<view class="goodsWrap" style="padding-bottom:100rpx">
+		<view wx:for="{{swiper}}" wx:key="*this" bindtap="goDetail" data-src="{{item.src}}" data-url="{{item.url}}">
+			<van-card num="2" price="2.00" tag="{{item.title[item.title.length-1]}}" desc="{{item.remark}}" title="{{item.title}}" thumb="{{ item.src }}" />
+		</view>
+	</view>
+	<van-submit-bar price="{{ 3050 }}" button-text="提交订单" bind:submit="onSubmit" />

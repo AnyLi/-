@@ -1,0 +1,42 @@
+/* pages/wode/wode.wxss */
+/* .wrap{
+  padding: 50rpx;
+background: #fff;
+
+} */
+.back{
+  width: 100%;
+  height: 500rpx;
+
+}
+.fixed{
+  width: 100vw;
+  height: 500rpx;
+  position: fixed;
+  top: 0;
+  left:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item{
+  width: 300rpx;
+height: 300rpx;
+border-radius: 50%;
+background: rgba(255,255,255,0.9);
+text-align: center;
+padding: 50rpx;
+box-shadow: 0 0 10rpx 10rpx #ffff inset;
+color: #666;
+font-weight: bold;
+}
+.itemText{
+  margin-top: 20rpx;
+  text-align: center;
+   
+}
+.item image{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}

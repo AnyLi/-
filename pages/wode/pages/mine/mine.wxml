@@ -1,0 +1,17 @@
+<!--pages/mine/mine.wxml-->
+<view class="flexCenter page" style="background:url('https://hbimg.huabanimg.com/406ebd93e3d1b12a20b27012431b9794c2f98dad1f60f-gwhOTm_fw658/format/webp');background-size:100%">
+<van-grid clickable column-num="2" style="width:80%">
+  <van-grid-item
+    icon="search"
+    link-type="navigateTo"
+    url="../wodeDetail/wodeDetail"
+    text="我的信息"
+  />
+  <van-grid-item
+    icon="home-o"
+    link-type="reLaunch"
+    url="/pages/tabBar/index/index"
+    text="首页"
+  />
+</van-grid>
+</view>

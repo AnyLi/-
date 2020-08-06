@@ -1,0 +1,4 @@
+/* pages/zhuanfen/zhuanfenDetail/zhuanfenDetail.wxss */
+.calendar {
+  --calendar-height: 500px;
+}

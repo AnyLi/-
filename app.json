@@ -1,0 +1,80 @@
+{
+  "pages": [
+    "pages/tabBar/index/index",
+    "pages/tabBar/quanyi/quanyi",
+    "pages/tabBar/zhuanfen/zhuanfen",
+    "pages/tabBar/wode/wode"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "分包演示",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#a0a0a0",
+    "backgroundColor": "#ffffff",
+    "selectedColor": "#c70304",
+    "borderStyle": "white",
+    "list": [{
+        "pagePath": "pages/tabBar/index/index",
+        "text": "首页",
+        "iconPath": "static/icon/index.png",
+        "selectedIconPath": "static/icon/index_active.png"
+      },
+      {
+        "pagePath": "pages/tabBar/quanyi/quanyi",
+        "text": "商城",
+        "iconPath": "static/icon/quanyi.png",
+        "selectedIconPath": "static/icon/quanyi_active.png"
+      },
+      {
+        "pagePath": "pages/tabBar/zhuanfen/zhuanfen",
+        "text": "赚分",
+        "iconPath": "static/icon/zhuanfen.png",
+        "selectedIconPath": "static/icon/zhuanfen_active.png"
+      },
+      {
+        "pagePath": "pages/tabBar/wode/wode",
+        "text": "我的",
+        "iconPath": "static/icon/wode.png",
+        "selectedIconPath": "static/icon/wode_active.png"
+      }
+    ]
+  },
+  "subpackages": [{
+      "root": "pages/index",
+      "pages": [
+        "pages/indexDetail/indexDetail"
+      ]
+    },
+    {
+      "root": "pages/quanyi",
+      "pages": [
+        "pages/quanyiDetail/quanyiDetail"
+      ]
+    },
+    {
+      "root": "pages/zhuanfen",
+      "pages": [
+        "pages/zhuanfenDetail/zhuanfenDetail",
+        "pages/order/order"
+      ]
+    },
+    {
+      "root": "pages/wode",
+      "pages": [
+        "pages/wodeDetail/wodeDetail",
+        "pages/mine/mine",
+        "pages/logs/logs"
+      ],
+      "independent": true
+    }
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取您的位置信息计算最近活动信息。"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+<!--pages/chooseFood/chooseFood.wxml-->
+<view class="wrap">
+<image src="{{src}}" mode="aspectFill" style="width:100vw;height:100vh"></image>
+</view>
